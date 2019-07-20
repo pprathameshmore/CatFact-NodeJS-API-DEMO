@@ -1,7 +1,7 @@
 # CatFact-NodeJS-API-DEMO
 [![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Demonstration of API using Express and Request.
+Demonstration of API fetch using Express and Request.
 
 ## Screenshots:
 ![screenshot](assets/screenshot.jpg)
