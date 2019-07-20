@@ -1,0 +1,25 @@
+<% include partials/header %>
+
+<section class="page-head">
+    <h1 class="display-2">
+        Welcome to Cat Facts
+    </h1>
+    <h3 class="display-4">Daily Cat Facts</h3>
+    <br>
+
+    <div class="row">
+        <% fact["all"].forEach(function(fact) { %>
+            
+            <% var i = 0 %>
+        <div class="col">
+            <div class="card card-text my-card" style="width: 18rem;">
+                <div class="card-body">
+                    <p class="card-text"> <%= fact["text"] %> </p>
+                </div>
+            </div>
+        </div>
+        <% }); %>
+    </div>
+</section>
+
+<% include partials/footer %>
